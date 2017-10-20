@@ -5,9 +5,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "node node_modules/jest/bin/jest.js src",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "test": "node node_modules/jest/bin/jest.js src",
+    "lint": "node node_modules/eslint/bin/eslint.js src"
   },
   "dependencies": {
     "react": "^16.0.0",
