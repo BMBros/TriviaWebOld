@@ -5,9 +5,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "node node_modules/jest/bin/jest.js src",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "test": "node node_modules/jest/bin/jest.js src",
+    "lint": "node node_modules/eslint/bin/eslint.js src"
   },
   "dependencies": {
     "react": "^16.0.0",
@@ -15,6 +15,9 @@
     "react-scripts": "1.0.14"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-react-app": "^3.0.3",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.7.0",

@@ -1,8 +1,8 @@
 env:
-  mocha: true
+  es6: true
   browser: true
   node: true
-  jasmine: true
+  jest: true
 globals:
   expect: true
 extends: airbnb
